@@ -3,12 +3,14 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Image from "next/image";
-
 import { FaStar, FaStarHalf, FaRegStar } from "react-icons/fa";
+import "swiper/css/pagination";
+
+import { Pagination } from "swiper/modules";
+ 
 import { motion } from "framer-motion";
 import { fadeIn } from "/variants";
 import { cars } from "/constants";
-
 
 export default function CarSlider() {
   return (
@@ -25,10 +27,15 @@ export default function CarSlider() {
           640: { slidesPerView: 2, spaceBetween: 32 },
           1260: { slidesPerView: 3, spaceBetween: 32 },
         }}
+        pagination={{
+          clickable: true,
+          dynamicBullets: true,
+        }}
+        modules={[Pagination]}
       >
         {cars.map((car, index) => (
           <SwiperSlide key={index}>
-            <div className="max-w-[385px] mx-auto sm:mx-0">
+            <div className="max-w-[385px] mx-auto sm:mx-0 py-[3rem]">
               <Image src={car.image} width={380} height={284} alt={car.name} />
               <div className="flex justify-between">
                 <div className="">
