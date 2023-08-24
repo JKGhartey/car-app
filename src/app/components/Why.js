@@ -39,7 +39,7 @@ export default function Why() {
           className="max-xl:hidden flex justify-center mb-6 xl:mb-2"
         >
           <Image
-            src={"/assets/images/why/car.svg"}
+            src={"/assets/images/why/car2.png"}
             width={1060}
             height={420}
             alt="why"

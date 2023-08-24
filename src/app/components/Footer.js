@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="flex flex-col flex-1 gap-y-8">
             <Link to={"home"} smooth={true} className="cursor-pointer">
               <Image
-                src={"/assets/icons/logo.svg"}
+                src={"/logos/vector/default-monochrome.svg"}
                 width={200}
                 height={200}
                 alt="logo"
@@ -40,7 +40,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-x-[10px]">
                 <FaEnvelope />
-                <div className="font-medium">info@carland.com</div>
+                <div className="font-medium">info@eliteauto.com</div>
               </div>
             </div>
           </div>
@@ -69,9 +69,9 @@ export default function Footer() {
             <h3 className="h3 font-bold mb-8">NewsLetter</h3>
             <div className="flex flex-col gap-y-4">
               <div className="mb-9 text-secondary">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-                error cupiditate temporibus aperiam incidunt mollitia enim omnis
-                nesciunt fuga, sequi hic ea itaque voluptates?
+                EliteAuto - Elevate Your Drive. Discover a world of luxury and
+                performance with our exceptional selection of premium vehicles.
+                Your journey to excellence starts with EliteAuto.
               </div>
               <form action="" className="flex gap-x-2 h-14">
                 <input

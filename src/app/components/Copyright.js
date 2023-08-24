@@ -3,7 +3,7 @@ export default function Copyright() {
   const currentYear = currentDate.getFullYear();
   return (
     <div className="text-center py-10 border-t text-sm ">
-      Copyright &copy; Carland {currentYear}. All rights reerved.
+      Copyright &copy; EliteAutos {currentYear}. All rights reerved.
     </div>
   );
 }

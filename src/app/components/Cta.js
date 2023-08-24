@@ -30,9 +30,8 @@ export default function Cta() {
                 viewport={{ once: false, amount: 0.6 }}
                 className="mb-10"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                consectetur laudantium dolorum nam non, voluptates minus ipsam
-                ex culpa sint.
+                Experience automotive luxury at your fingertips. Download the
+                EliteAuto app now and unlock a new realm of driving perfection.
               </motion.p>
               <motion.div
                 variants={fadeIn("right", 0.6)}
@@ -68,9 +67,9 @@ export default function Cta() {
             className="flex-1 flex justify-center order-1 md:order-none"
           >
             <Image
-              src={"/assets/images/cta/phone.svg"}
-              width={320}
-              height={640}
+              src={"/assets/images/cta/mobile2.png"}
+              width={420}
+              height={750}
               alt="cta"
             />
           </motion.div>

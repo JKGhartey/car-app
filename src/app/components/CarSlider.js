@@ -36,7 +36,7 @@ export default function CarSlider() {
         {cars.map((car, index) => (
           <SwiperSlide key={index}>
             <div className="max-w-[385px] mx-auto sm:mx-0 py-[3rem]">
-              <Image src={car.image} width={380} height={284} alt={car.name} />
+              <Image src={car.image} width={380} height={284} alt={car.name} className="h-[280.3px] object-none" />
               <div className="flex justify-between">
                 <div className="">
                   <div className="text-[13px] text-secondary uppercase ">

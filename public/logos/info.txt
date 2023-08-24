@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: IBMPlexSerif-Medium
+font link: https://fonts.google.com/specimen/IBM+Plex+Serif
+font author: Mike Abbink
+font author site: https://www.mikeabbink.com/
+
+
+icon designer: Roman J. Sokolov
+icon designer link: /rjsokolov
+        
+{"bg":"#F5E9EB","icon-gradient-0":"#70243D","icon-gradient-1":"#C15767","font":"#36131B","slogan":"#4a272f"}
+      

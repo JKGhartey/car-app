@@ -62,8 +62,8 @@ export default function Header() {
             className="cursor-pointer"
           >
             <Image
-              src="/assets/icons/logo.svg"
-              width={194}
+              src="/logos/vector/default-monochrome.svg"
+              width={124}
               height={64}
               alt="logo"
             />
